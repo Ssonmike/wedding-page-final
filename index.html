@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nos casamos!</title>
+</head>
+<body>
+    <header class="noscasamos">
+        <img src="images/IMG_4319.jpg" alt="miguelyanaplaya" class="miyana">
+            <nav class="header-nav">
+                <div class="header-nav-logo-container">
+                    <p>MyA</p>
+                </div>
+                <div class="header-nav-container">
+                    <ul class="header-nav-container-ul">
+                        <a href=""><li class="inicio">Inicio</li></a>
+                        <a href=""><li class="dndycnd">Ceremonia</li></a>
+                        <a href=""><li class="asist">Invitación</li></a>
+                    </ul>
+                    
+                </div>
+                <img src="images/align-left-svgrepo-com.svg" alt="nav-icon" class="nav-icon">
+            </nav>
+            <div class="noscasamos-text">
+                <p class="laputavuelta">!</p><p>Nos casamos!</p>
+            </div>
+        </div>
+    </header>
+    <article class="dondeycuando">
+        <div class="container-one">
+            <p class="container-title">La ceremonia</p>
+            <div class="container-info">
+                <p>-13:00h-</p>
+                <p>Ermita de San Francisco</p>
+                <p>Telde</p>
+            </div>
+            <a href="https://www.google.es/maps/place/Ermita+de+San+Francisco/@28.0033732,-15.4197208,17z/data=!3m1!4b1!4m6!3m5!1s0xc4097e7f3863caf:0xb8f768309d78fd54!8m2!3d28.0033732!4d-15.4171459!16s%2Fg%2F11bw5mbwdg?entry=ttu" ><img src="images/logo-ermita.svg" alt="logo ermita" class="logo-ermita"></a>
+            
+        </div>
+        <div class="container-two">
+            <p class="container-title">La celebración</p>
+            <div class="container-info">
+                <p>-14:00h-</p>
+                <p>La Finca Medina</p>
+                <p>San Francisco</p>
+            </div>
+            <a href="https://www.google.es/maps/place/La+Finca+Medina/@28.0033732,-15.4197208,17z/data=!4m6!3m5!1s0xc409719a544c5c3:0xc189ab79ab0663dd!8m2!3d28.0025128!4d-15.4147295!16s%2Fg%2F11sbyg8pgg?entry=ttu"><img src="images/logo-copas.svg" alt="logo copas" class="logo-copas"></a>
+            
+        </div>
+        <div class="container-three">
+            <p class="container-title">Dónde aparcar</p>
+            <div class="container-info">
+                <p>Parking de San Juan</p>
+                <p>Ayuntamiento de Telde</p>
+                <p>Parque San Juan</p>
+            </div>
+            <a href="https://www.google.es/maps/place/Ayuntamiento+de+Telde.+Edificio+del+Cubillo./@28.0054759,-15.4161241,17.5z/data=!4m6!3m5!1s0xc409719a2d212eb:0x707c1800917b2fe!8m2!3d28.0063077!4d-15.4133961!16s%2Fg%2F11jnwp6zwv?entry=ttu"><img src="images/logo-punto.svg" alt="logo punto" class="logo-punto"></a>
+            
+        </div>
+    </article>
+    <article class="asistencia">
+        <form class="asistencia-form" action="#" method="get">
+            <div class="asistencia-form-titulo">
+                <p class="asistencia-form-titulo-confirma">Confirma tu asistencia</p>
+                <p class="asistencia-form-titulo-antes">Antes de Abril 2024</p>
+            </div>
+            <div class="asistencia-form-nombre">
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos">
+            </div>
+            <div class="asistencia-form-comidas">
+                <div class="asistencia-form-comidas-div">
+                    <div class="asistencia-form-comidas-div-izq">    
+                        <div class="asistencia-form-comidas-menu">
+                            <p>Tipo de  menú: </p>
+                            <div class="asistencia-form-comidas-menu-carne">
+                                <input type="checkbox" name="carne" id="carne">
+                                <label for="carne">Carne</label>
+                            </div>
+                            <div class="asistencia-form-comidas-menu-pescado">
+                                <input type="checkbox" name="pescado" id="pescado">                     
+                                <label for="pescado">Pescado</label>
+                            </div>
+                            <div class="asistencia-form-comidas-menu-vegetariano">
+                                <input type="checkbox" name="vegetariano" id="vegetariano">
+                                <label for="vegetariano">Vegetariano</label>
+                            </div>
+                            <div class="asistencia-form-comidas-menu-infantil">
+                                <input type="checkbox" name="infantil" id="infantil">
+                                <label for="infantil">Infantil</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="asistencia-form-comidas-div-der">
+                        <div class="asistencia-form-comidas-div-der-adulto">
+                            <label for="adulto">Añadir adulto(s)</label>
+                            <input type="number" name="adutos" id="adultos" min="1" max="5">
+                        </div>
+                        <div class="asistencia-form-comidas-div-der-niño">
+                            <label for="niño">Añadir niño(s)</label>
+                            <input type="number" name="niños" id="niños" min="1" max="5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="asistencia-form-comidas-alergias">
+                    <label for="menu-acompañante">Menú(s) acompañante(s):</label>
+                    <label for="intolerancias">Alergias / Intolerancias</label>
+                    <textarea name="alergias" id="alergias" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="asistencia-form-comidas-bottom">
+                    <button>Enviar</button>
+            </div>
+            <div class="asistencia-form-comidas-text">
+                *Ojo, ojo! ¡Para la fiesta no hay un código de vestimenta concreto, pero hay una regla de oro! Los tonos blancos y sus distintos matices quedan reservados para los enamorados de la noche*
+            </div>
+        <img src="images/flor.svg" alt="">
+        </form>
+    </article>
+    <article class="cuentaatras">
+        <img src="images/IMG_3541.jpg" alt="">
+        <div class="cuentaatras-container">
+            <div class="cuentaatras-container-one">
+                
+            </div>
+            <div class="cuentaatras-container-two">
+                
+            </div>
+            <div class="cuentaatras-container-three">
+                
+            </div>
+            <div class="cuentaatras-container-four">
+                
+            </div>
+        </div>
+
+    </article>
+    <article class="nosotros">
+        <div class="nosotros-text">
+            <p class="nosotros-text-title">Sobre nosotros</p>
+            <div class="nosotros-text-container">
+                <p class="nosotros-text-1">
+                    Nos conocimos trabajando y con el tiempo comprobamos eso de que los polos opuestos se atraen. ¡Y de qué manera!
+                </p>
+                <p class="nosotros-text-2">
+                    Lo sabemos, estamos locos… ¡pero locos de amor! Y por eso queremos compartir nuestra locura contigo invitándote a ser testigo de nuestra boda
+                </p>
+                <p class="nosotros-text-3">
+                    No podemos esperar a que llegue ese día en el que celebraremos, después de 8 años, la unión de nuestras vidas y comenzaremos una nueva etapa juntos. Será un camino lleno de retos y aventuras, pero estamos seguros de que juntos podremos superarlos todos.
+                </p>
+                <p class="nosotros-text-4">
+                    Te esperamos con los brazos abiertos para que celebremos juntos este amor que nos ha unido. ¡Gracias por acompañarnos en este día tan importante para nosotros!
+                </p>
+            </div>
+        </div>
+        <img src="images/corona-flor.svg" alt="">
+    </article>
+    <footer class="detalle">
+        <img src="images/movil-img-car.png" alt="">
+        <div class="detalle-container">
+            <p class="detalle-container-title">¿Te apetece tener un detalle con nosotros?</p>
+            <p class="detalle-container-text">Si decides hacer una contribución, te agradecemos de antemano y aseguramos que será utilizada para hacer de este día algo inolvidable. Sin embargo lo más importante para nosotros es poder compartir este momento especial contigo. 
+                ¡Esperamos verte pronto y disfrutar juntos de buenos momentos!</p>
+        </div>
+    </footer>
+</body>
+</html>
